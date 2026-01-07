@@ -1,0 +1,11 @@
+requests~=2.32.4
+beautifulsoup4~=4.13.4
+reportlab~=4.4.5
+pathlib~=1.0.1
+pillow~=11.3.0
+pydantic~=2.11.7
+fastapi~=0.116.1
+groq~=0.31.0
+google-genai==1.56.0
+pydantic-settings
+python-multipart

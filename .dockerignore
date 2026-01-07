@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Biến môi trường
+.env
+
+# Các tệp và thư mục hệ thống/editor
+.git
+.gitignore
+.vscode
+.idea/

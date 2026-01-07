@@ -1,0 +1,23 @@
+[
+    {
+        "file1": {
+            "filename": "submission\\contest_1\\problem_7__tdf__Two_Sum\\python\\thaidangfa.py (96%)",
+            "source": [
+                {
+                    "color": "#FF0000",
+                    "code": "def two_sum(nums, target):\n    mp = {}\n    for i, num in enumerate(nums):\n        if num in mp:\n            return mp[num], i\n        mp[target - num] = i\n    return None\n\nn = int(input())\nnums = [int(i) for i in input().split()]\ntarget = int(input())\n\nres = two_sum(nums, target)\nif res == None:\n    print(\"None\")\nelse:\n    for i in res:\n        print(i, end=\" \")"
+                }
+            ]
+        },
+        "file2": {
+            "filename": "submission\\contest_1\\problem_7__tdf__Two_Sum\\python\\user.py (96%)",
+            "source": [
+                {
+                    "color": "#FF0000",
+                    "code": "def two_sum(nums, target):\n    mp = {}\n    for i, num in enumerate(nums):\n        if num in mp:\n            return mp[num], i\n        mp[target - num] = i\n    return None\n\nn = int(input())\nnums = [int(i) for i in input().split()]\ntarget = int(input())\n\nres = two_sum(nums, target)\nif res == None:\n    print(\"None\")\nelse:\n    for i in res:\n        print(i, end=\" \")"
+                }
+            ]
+        },
+        "lines": 18
+    }
+]

@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    image: iamtdf/smart-fast-api:latest
+    container_name: FastAPI
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
